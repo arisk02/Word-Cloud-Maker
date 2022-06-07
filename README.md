@@ -27,3 +27,7 @@ java WordCounter <text document name>.txt <number of words to be displayed> <htm
 
 where <number of words to be displayed> is an integer of hot many words you want your cloud to contain,
 and <html document name>.html is a name the user wants their html file to be named with.
+
+  
+The repository contains a few text documents: StopWords must not be removed and is a part of the program. The rest
+of the text documents are book examples which you can use in order to see how the program works.
