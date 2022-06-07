@@ -9,6 +9,12 @@ The point of the project is to pass it a text document, a book for an example, a
 each word appears in the document and then, by the choice of the user, return the full list of all the words and 
 their counts in the terminal, or an html document that contains a word cloud.
 
+The way we kept count of all the words that did not take up too much memory is by making a tree of characters. For 
+an example if there was a word add and are, there is going to be one character a, which would then have children
+nodes d and r, and then d would have a child node d and r would have a child node e. At the end of each word would
+be the count, so count on e would be 1, because there is 1 word "are", but count on ar would be 0, because there is 
+0 words "ar".
+
 A word cloud is just a visual representation of which of the words appeared more or less time than the others. 
 The word that appeared the most times will be the largest one in the cloud, and the one that appeared the least
 amount of times will be the smallest one.
