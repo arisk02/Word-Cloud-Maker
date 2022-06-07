@@ -25,7 +25,7 @@ java WordCounter .txt
 Have an html document made:
 java WordCounter .txt numOfWords .html
 
-where numOfWords is an integer of hot many words you want your cloud to contain,
+where numOfWords is an integer of how many words you want your cloud to contain,
 and .html is a name the user wants their html file to be named with.
 
   
