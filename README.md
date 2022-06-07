@@ -20,13 +20,13 @@ Next, to run the program, you can choose whether to display all the words and th
 an html document made with the visual representation of a word cloud.
 
 List all the words and their counts:
-java WordCounter <text document name>.txt
+java WordCounter .txt
   
 Have an html document made:
-java WordCounter <text document name>.txt <number of words to be displayed> <html document name>.html
+java WordCounter .txt numOfWords .html
 
-where <number of words to be displayed> is an integer of hot many words you want your cloud to contain,
-and <html document name>.html is a name the user wants their html file to be named with.
+where numOfWords is an integer of hot many words you want your cloud to contain,
+and .html is a name the user wants their html file to be named with.
 
   
 The repository contains a few text documents: StopWords must not be removed and is a part of the program. The rest
